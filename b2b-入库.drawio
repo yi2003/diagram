@@ -1,4 +1,4 @@
-<mxfile modified="2022-06-30T07:22:37.169Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="pR8W8EuhA6YH4fn5ePv8" version="15.5.9" type="github">
+<mxfile modified="2022-06-30T08:40:06.771Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="r4_NUVDGVlnBSCBH9Ay8" version="15.5.9" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="2402" dy="1452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -141,11 +141,10 @@
         <mxCell id="hSqU_bDdvJ7CT25A89Mv-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSqU_bDdvJ7CT25A89Mv-48" target="hSqU_bDdvJ7CT25A89Mv-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hSqU_bDdvJ7CT25A89Mv-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSqU_bDdvJ7CT25A89Mv-48" target="hSqU_bDdvJ7CT25A89Mv-54">
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="hSqU_bDdvJ7CT25A89Mv-48" target="hSqU_bDdvJ7CT25A89Mv-82">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="980" y="770" />
-              <mxPoint x="980" y="235" />
+              <mxPoint x="1083" y="770" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -155,8 +154,11 @@
         <mxCell id="hSqU_bDdvJ7CT25A89Mv-50" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;发消息：sendSkuStockChangeMsg&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
           <mxGeometry x="670" y="870" width="230" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="hSqU_bDdvJ7CT25A89Mv-54" target="hSqU_bDdvJ7CT25A89Mv-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hSqU_bDdvJ7CT25A89Mv-54" value="http://supplychain.iapi.ymatou.com/api/callback/receiveStorageBillStatusChange" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="200" width="470" height="30" as="geometry" />
+          <mxGeometry x="1160" y="120" width="470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hSqU_bDdvJ7CT25A89Mv-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hSqU_bDdvJ7CT25A89Mv-56" target="hSqU_bDdvJ7CT25A89Mv-59">
           <mxGeometry relative="1" as="geometry" />
@@ -222,6 +224,43 @@
         </mxCell>
         <mxCell id="hSqU_bDdvJ7CT25A89Mv-78" value="&lt;font color=&quot;#6a8759&quot; face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;receiveEnterpriseWeChatApprovalChange&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
           <mxGeometry x="20" y="550" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hSqU_bDdvJ7CT25A89Mv-82" target="hSqU_bDdvJ7CT25A89Mv-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" />
+              <mxPoint x="1445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-82" value="{&quot;bizNo&quot;:&quot;PO000455&quot;,&quot;bizType&quot;:1,&quot;eventTime&quot;:&quot;2022-06-30 15:32:32&quot;,&quot;flowNo&quot;:&quot;RK000446&quot;,&quot;flowType&quot;:1,&quot;isSample&quot;:false,&quot;verifyStatus&quot;:1,&quot;whCode&quot;:&quot;001&quot;}" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;spacing=4;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-50" width="530" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="hSqU_bDdvJ7CT25A89Mv-89" target="hSqU_bDdvJ7CT25A89Mv-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-89" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;processCreateStorageBill&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="200" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="hSqU_bDdvJ7CT25A89Mv-91" target="hSqU_bDdvJ7CT25A89Mv-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-91" value="入库管理" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="295" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="hSqU_bDdvJ7CT25A89Mv-93" target="hSqU_bDdvJ7CT25A89Mv-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-93" value="采购入库-理货报告" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="390" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="hSqU_bDdvJ7CT25A89Mv-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1535" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hSqU_bDdvJ7CT25A89Mv-95" value="supplychain/api/storageBill/uploadReport" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="460" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
