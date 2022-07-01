@@ -1,4 +1,4 @@
-<mxfile modified="2022-06-30T11:50:18.113Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="6HdHqEQcMHzFveom1WGO" version="15.5.9" type="github">
+<mxfile modified="2022-07-01T07:29:39.944Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="KFwwzzCdThtooOli93Nv" version="15.5.9" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="2402" dy="1452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -285,7 +285,12 @@
           <mxGeometry x="1325" y="750" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hSqU_bDdvJ7CT25A89Mv-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" parent="1" source="hSqU_bDdvJ7CT25A89Mv-110" target="hSqU_bDdvJ7CT25A89Mv-105" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1370" y="933" />
+              <mxPoint x="1380" y="933" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="hSqU_bDdvJ7CT25A89Mv-110" value="新建库存&lt;br&gt;storagestock" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
           <mxGeometry x="1315" y="830" width="110" height="40" as="geometry" />
