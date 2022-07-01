@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T11:01:31.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="4BQ8LXz2dvACvCLCt_28" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-01T11:09:01.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="JC8ziTddPXnjKAKKN-D3" version="15.5.9" type="github">
   <diagram id="6fcMQszWX0c5DgQnWheI" name="Page-1">
     <mxGraphModel dx="1422" dy="1452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -34,8 +34,37 @@
         <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-10" value="&lt;div&gt;创建出库单据&lt;/div&gt;&lt;div&gt;StoreBillSevcie createOutStorageBill&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
           <mxGeometry x="10" y="-195" width="240" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Rcm_KRWIQfJ2-WHhXYL-12" target="1Rcm_KRWIQfJ2-WHhXYL-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="-55" />
+              <mxPoint x="250" y="-615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-12" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;获取聚集库存&lt;/div&gt;&lt;div&gt;StorageStockSumPo&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
           <mxGeometry x="55" y="-85" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Rcm_KRWIQfJ2-WHhXYL-14" target="1Rcm_KRWIQfJ2-WHhXYL-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-14" value="&lt;div&gt;po库存&lt;/div&gt;&lt;div&gt;StorageStockPo&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-635" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Rcm_KRWIQfJ2-WHhXYL-16" target="1Rcm_KRWIQfJ2-WHhXYL-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-16" value="&lt;div&gt;po库存&lt;/div&gt;&lt;div&gt;StorageStockPo&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-515" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1Rcm_KRWIQfJ2-WHhXYL-18" target="1Rcm_KRWIQfJ2-WHhXYL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-18" value="&lt;div&gt;冻结库存&lt;/div&gt;&lt;div&gt;FROZEN_STOCK&lt;/div&gt;&lt;div&gt;frozenStock&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="275" y="-410" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-20" value="&lt;div&gt;&lt;div&gt;更新&lt;/div&gt;&lt;div&gt;StorageStockSumPo&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;冻结库存,&lt;span style=&quot;font-family: , monospace ; font-size: 9.8pt ; color: rgb(98 , 151 , 85) ; font-style: italic&quot;&gt;实际库存&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-260" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
