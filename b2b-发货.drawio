@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T03:07:48.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="15.5.9" etag="Te5pmRhQXsGJh0i2-Esm" type="github"><diagram id="QKlP5dGs6q3-7k34QAo-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-04T03:42:40.644Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Tgkup3VC7kgr9ld4vL_s" version="15.5.9" type="github">
+  <diagram id="QKlP5dGs6q3-7k34QAo-" name="Page-1">
+    <mxGraphModel dx="1422" dy="1452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NVgSK6pczz49IcrMX978-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-1" target="NVgSK6pczz49IcrMX978-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-1" value="importDeliver&lt;br&gt;导入发货" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="185" y="-635" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-2" target="NVgSK6pczz49IcrMX978-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-2" value="ymtMergeDeliver&lt;br&gt;码头发货" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-515" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-4" target="NVgSK6pczz49IcrMX978-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-4" value="&lt;div&gt;b2bMergeDeliver&lt;/div&gt;&lt;div&gt;b2b发货&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-395" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-6" target="NVgSK6pczz49IcrMX978-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-6" value="&lt;div&gt;deliver&amp;nbsp;&lt;/div&gt;&lt;div&gt;修改platformorder 表状态&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-280" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-8" target="NVgSK6pczz49IcrMX978-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-8" value="subscribeexpressinfo&#xa;订阅流水" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="165" y="-155" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-10" target="NVgSK6pczz49IcrMX978-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="-135" />
+              <mxPoint x="540" y="-620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-10" value="&lt;div&gt;out_stock_success&lt;/div&gt;&lt;div&gt;出库消息&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-155" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-12" target="NVgSK6pczz49IcrMX978-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-12" value="receiveOutStockSuccess" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-635" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-14" target="NVgSK6pczz49IcrMX978-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-14" value="&lt;div&gt;获取出库单&lt;/div&gt;&lt;div&gt;ScmStorageBillPo&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="675" y="-530" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-16" target="NVgSK6pczz49IcrMX978-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-16" value="&lt;div&gt;operateStock&lt;/div&gt;&lt;div&gt;操作库存&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-410" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-18" target="NVgSK6pczz49IcrMX978-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-18" value="execOutStock" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="685" y="-280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-20" target="NVgSK6pczz49IcrMX978-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="-615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-20" value="&lt;div&gt;addOutPoStockBill&lt;/div&gt;&lt;div&gt;修改po 库存 storagestockpo 的FrozenStock, 和actualstock&amp;nbsp;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-180" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-22" target="NVgSK6pczz49IcrMX978-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-22" value="添加解冻库存记录&#xa;StorageStockBillPo" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;spacing=4;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NVgSK6pczz49IcrMX978-24" target="NVgSK6pczz49IcrMX978-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-24" value="&lt;div&gt;添加出库库存记录&lt;/div&gt;&lt;div&gt;StorageStockBillPo&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;spacing=4;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NVgSK6pczz49IcrMX978-26" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;解冻聚合库存&lt;/div&gt;&lt;div&gt;unfreezeSumStock&lt;/div&gt;&lt;div&gt;FrozenStock&lt;/div&gt;&lt;div&gt;ActualStock&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;spacing=4;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-390" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
