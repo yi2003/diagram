@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T10:28:36.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="5ORKuDHPU24A_4a7AjtN" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T10:29:11.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="hgGr37qEUDWaRW51UzJl" version="20.1.1" type="github">
   <diagram id="gm9wmj4ewTWz90mxwnAq" name="Page-1">
     <mxGraphModel dx="1422" dy="1452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
@@ -55,13 +55,12 @@
         <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-15" value="&lt;div&gt;&amp;nbsp;获取匹配到的PO单SKU列表&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;/div&gt;&lt;div&gt;getMatchPurchaseOrderSkus&lt;/div&gt;&lt;div&gt;&lt;div&gt;根据&amp;nbsp;&lt;/div&gt;&lt;div&gt;sku_id，wh_type 仓库类型(0:无,1:海外仓,2:保税仓,3:国内仓),&lt;/div&gt;&lt;div&gt;verifyStatus,po_status,po_no,&amp;nbsp;&lt;/div&gt;&lt;div&gt;找到scm_purchaseorder_sku，&lt;/div&gt;&lt;div&gt;&amp;nbsp;scm_purchaseorder&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
           <mxGeometry x="425" y="210" width="370" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-17" target="Vr9zmh_YeIxE3YvfDhzZ-23" edge="1">
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.335;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-17" target="Vr9zmh_YeIxE3YvfDhzZ-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="610" y="520" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="610" y="560" />
-              <mxPoint x="430" y="560" />
-              <mxPoint x="430" y="563" />
+              <mxPoint x="610" y="563" />
+              <mxPoint x="313" y="563" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -77,7 +76,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-23" value="返回PO单SKU库存列表" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
-          <mxGeometry x="190" y="540" width="170" height="30" as="geometry" />
+          <mxGeometry x="200" y="450" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lg5faKOyLSgRR92U_nJH-1" value="End" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
           <mxGeometry x="100" y="-100" width="70" height="30" as="geometry" />
