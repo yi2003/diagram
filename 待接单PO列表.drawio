@@ -1,71 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T07:27:38.855Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="kHYeBswotDbYL1cgESAq" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T10:28:36.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="5ORKuDHPU24A_4a7AjtN" version="20.1.1" type="github">
   <diagram id="gm9wmj4ewTWz90mxwnAq" name="Page-1">
     <mxGraphModel dx="1422" dy="1452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B-OGdx0pyZHKLMVqZVtF-2" target="Vr9zmh_YeIxE3YvfDhzZ-1">
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="B-OGdx0pyZHKLMVqZVtF-2" target="Vr9zmh_YeIxE3YvfDhzZ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B-OGdx0pyZHKLMVqZVtF-2" value="getWaitAcceptPoList" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
           <mxGeometry x="175" y="-620" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-1" target="Vr9zmh_YeIxE3YvfDhzZ-3">
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-1" target="Vr9zmh_YeIxE3YvfDhzZ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-1" value="PlatformOrderPo" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
-          <mxGeometry x="185" y="-510" width="130" height="30" as="geometry" />
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-1" value="根据orderId, PlatformOrderPo" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-510" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-3" target="Vr9zmh_YeIxE3YvfDhzZ-5">
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-3" target="Vr9zmh_YeIxE3YvfDhzZ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-3" value="PlatformOrderProductPo" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-400" width="180" height="30" as="geometry" />
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-3" value="根据orderId, ,标品id获取PlatformOrderProductPo" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
+          <mxGeometry x="95" y="-400" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-5" target="Vr9zmh_YeIxE3YvfDhzZ-9">
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-5" target="Vr9zmh_YeIxE3YvfDhzZ-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-5" value="thirdWhCodes" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
-          <mxGeometry x="190" y="-290" width="120" height="30" as="geometry" />
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-5" value="仓库：thirdWhCodes&lt;br&gt;下单数量： qty" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
+          <mxGeometry x="170" y="-300" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-9" target="Vr9zmh_YeIxE3YvfDhzZ-11">
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-9" target="Vr9zmh_YeIxE3YvfDhzZ-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-9" value="获取PO单SKU库存列表(可接单列表)&lt;br&gt;getPurchaseOrderSkuStockList&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+        <mxCell id="lg5faKOyLSgRR92U_nJH-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-9" target="lg5faKOyLSgRR92U_nJH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-9" value="获取PO单SKU库存列表(可接单列表)&lt;br&gt;getPurchaseOrderSkuStockList&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
           <mxGeometry x="130" y="-190" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-11" target="Vr9zmh_YeIxE3YvfDhzZ-13">
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-11" target="Vr9zmh_YeIxE3YvfDhzZ-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-11" value="获取店铺信息&lt;br&gt;getShopInfo" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
-          <mxGeometry x="190" y="-60" width="120" height="50" as="geometry" />
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-11" value="获取店铺信息&lt;br&gt;getShopInfo" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
+          <mxGeometry x="550" y="-130" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-13" target="Vr9zmh_YeIxE3YvfDhzZ-15">
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-13" target="Vr9zmh_YeIxE3YvfDhzZ-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-13" value="&lt;div&gt;获取可接单PO单SKU库存列表&lt;/div&gt;&lt;div&gt;getMatchPurchaseOrderSkuStockList&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
-          <mxGeometry x="130" y="70" width="240" height="50" as="geometry" />
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-13" value="&lt;div&gt;获取可接单PO单SKU库存列表&lt;/div&gt;&lt;div&gt;getMatchPurchaseOrderSkuStockList&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
+          <mxGeometry x="490" y="30" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-15" target="Vr9zmh_YeIxE3YvfDhzZ-17">
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-15" target="Vr9zmh_YeIxE3YvfDhzZ-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-15" value="&lt;div&gt;&amp;nbsp;获取匹配到的PO单SKU列表&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;getMatchPurchaseOrderSkus&lt;/div&gt;&lt;div&gt;&lt;div&gt;根据&amp;nbsp;&lt;/div&gt;&lt;div&gt;sku_id，wh_type 仓库类型(0:无,1:海外仓,2:保税仓,3:国内仓),&lt;/div&gt;&lt;div&gt;verifyStatus,po_status,po_no,&amp;nbsp;&lt;/div&gt;&lt;div&gt;找到scm_purchaseorder_sku，&lt;/div&gt;&lt;div&gt;&amp;nbsp;scm_purchaseorder&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
-          <mxGeometry x="65" y="200" width="370" height="120" as="geometry" />
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-15" value="&lt;div&gt;&amp;nbsp;获取匹配到的PO单SKU列表&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;/div&gt;&lt;div&gt;getMatchPurchaseOrderSkus&lt;/div&gt;&lt;div&gt;&lt;div&gt;根据&amp;nbsp;&lt;/div&gt;&lt;div&gt;sku_id，wh_type 仓库类型(0:无,1:海外仓,2:保税仓,3:国内仓),&lt;/div&gt;&lt;div&gt;verifyStatus,po_status,po_no,&amp;nbsp;&lt;/div&gt;&lt;div&gt;找到scm_purchaseorder_sku，&lt;/div&gt;&lt;div&gt;&amp;nbsp;scm_purchaseorder&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
+          <mxGeometry x="425" y="210" width="370" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-17" target="Vr9zmh_YeIxE3YvfDhzZ-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-17" target="Vr9zmh_YeIxE3YvfDhzZ-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="560" />
+              <mxPoint x="430" y="560" />
+              <mxPoint x="430" y="563" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-17" value="&lt;div&gt;根据po单号，skuid 获取库存列表&lt;/div&gt;&lt;div&gt;selectByPoNoList&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
-          <mxGeometry x="140" y="380" width="220" height="50" as="geometry" />
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-17" value="&lt;div&gt;根据po单号，skuid 获取库存列表&lt;/div&gt;&lt;div&gt;selectByPoNoList&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
+          <mxGeometry x="500" y="420" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-19" target="Vr9zmh_YeIxE3YvfDhzZ-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="lg5faKOyLSgRR92U_nJH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vr9zmh_YeIxE3YvfDhzZ-23" target="Vr9zmh_YeIxE3YvfDhzZ-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="320" />
+              <mxPoint x="310" y="320" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-19" value="&lt;div&gt;根据po单号，skuid 获取库存列表&lt;/div&gt;&lt;div&gt;selectByPoNoList&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
-          <mxGeometry x="140" y="510" width="220" height="50" as="geometry" />
+        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-23" value="返回PO单SKU库存列表" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
+          <mxGeometry x="190" y="540" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vr9zmh_YeIxE3YvfDhzZ-23" value="PO单SKU库存列表" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
-          <mxGeometry x="175" y="650" width="150" height="30" as="geometry" />
+        <mxCell id="lg5faKOyLSgRR92U_nJH-1" value="End" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-100" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
