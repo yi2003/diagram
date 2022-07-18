@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T08:27:15.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="oS5zP6-AWutKAOgtI1z1" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T08:30:03.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="sguq3b3maQUM30DZrVER" version="20.1.1" type="github">
   <diagram id="6fcMQszWX0c5DgQnWheI" name="Page-1">
-    <mxGraphModel dx="2402" dy="1452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="690" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-6" value="获取库存记录信息:StorageStockPo" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};direction=west;" parent="1" vertex="1">
-          <mxGeometry x="125" y="-410" width="230" height="30" as="geometry" />
+          <mxGeometry x="125" y="-450" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1Rcm_KRWIQfJ2-WHhXYL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1Rcm_KRWIQfJ2-WHhXYL-8" target="1Rcm_KRWIQfJ2-WHhXYL-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -118,7 +118,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jJgt8s2uA7EtH4VzfO9X-10" value="根据供应商id, 平台， 仓库编号返回authmapping" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="-360" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="-380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jJgt8s2uA7EtH4VzfO9X-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jJgt8s2uA7EtH4VzfO9X-12" target="jJgt8s2uA7EtH4VzfO9X-14">
           <mxGeometry relative="1" as="geometry" />
