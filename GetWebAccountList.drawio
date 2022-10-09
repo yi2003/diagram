@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T11:49:08.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="v_QTcO6ZOOIxsn5Srdff" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-09T11:59:42.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="TK17Aa06dF-fZB_t61VZ" version="20.4.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="769" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -87,6 +87,36 @@
             <Array as="points">
               <mxPoint x="410" y="290" />
               <mxPoint x="410" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7Pg9gq6t3Lr05ZBMVza-26" value="TUserBiz.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="80" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="H7Pg9gq6t3Lr05ZBMVza-27" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="H7Pg9gq6t3Lr05ZBMVza-26">
+          <mxGeometry x="70" y="80" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="H7Pg9gq6t3Lr05ZBMVza-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.093;entryY=0.432;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="222.07407407407402" as="sourcePoint" />
+            <mxPoint x="820.9300000000001" y="222.12" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="223" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7Pg9gq6t3Lr05ZBMVza-29" value="GetWebAccountList" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H7Pg9gq6t3Lr05ZBMVza-28">
+          <mxGeometry x="0.0844" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7Pg9gq6t3Lr05ZBMVza-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="258.03703703703707" as="sourcePoint" />
+            <mxPoint x="650" y="258" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="258" />
+              <mxPoint x="800" y="258" />
             </Array>
           </mxGeometry>
         </mxCell>
