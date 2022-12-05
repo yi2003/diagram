@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T13:36:06.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eqi6Ky5avr2PjwF4uFva" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T13:42:36.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rg6FVNiJUX1pBfCwghh_" version="20.4.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="762" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
+    <mxGraphModel dx="1182" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,20 +56,22 @@
           <mxGeometry x="300" y="372.5" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="E7loFCdjNfJ6ukyrNxnh-20" value="LTK" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="527" y="130" width="300" height="200" as="geometry" />
+          <mxGeometry x="527" y="130" width="253" height="200" as="geometry" />
         </mxCell>
         <mxCell id="E7loFCdjNfJ6ukyrNxnh-21" value="baiwang" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="360" width="300" height="200" as="geometry" />
+          <mxGeometry x="490" y="447.5" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Verdana;" edge="1" parent="1" source="E7loFCdjNfJ6ukyrNxnh-33" target="E7loFCdjNfJ6ukyrNxnh-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="E7loFCdjNfJ6ukyrNxnh-33" value="申请LTK帐号" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="570" y="170" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="E7loFCdjNfJ6ukyrNxnh-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Verdana;" edge="1" parent="1" source="E7loFCdjNfJ6ukyrNxnh-37">
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Verdana;" edge="1" parent="1" source="E7loFCdjNfJ6ukyrNxnh-37" target="E7loFCdjNfJ6ukyrNxnh-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="690" y="270" as="targetPoint" />
             <Array as="points">
               <mxPoint x="750" y="80" />
-              <mxPoint x="750" y="270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -78,8 +80,39 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Verdana;" edge="1" parent="1" source="E7loFCdjNfJ6ukyrNxnh-37" target="E7loFCdjNfJ6ukyrNxnh-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-48" value="提交开票信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="E7loFCdjNfJ6ukyrNxnh-47">
+          <mxGeometry x="0.287" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="E7loFCdjNfJ6ukyrNxnh-37" value="cma cgm employee&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontFamily=Verdana;" vertex="1" parent="1">
-          <mxGeometry x="880" y="50" width="30" height="60" as="geometry" />
+          <mxGeometry x="900" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Verdana;" edge="1" parent="1" source="E7loFCdjNfJ6ukyrNxnh-43" target="E7loFCdjNfJ6ukyrNxnh-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="310" />
+              <mxPoint x="980" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-55" value="NCC GROUPING" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="E7loFCdjNfJ6ukyrNxnh-50">
+          <mxGeometry x="0.3111" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-43" value="提交开票申请" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="570" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-46" value="EPA" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="910" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-51" value="LARA" style="shape=umlFrame;whiteSpace=wrap;html=1;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="830" y="360" width="300" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
