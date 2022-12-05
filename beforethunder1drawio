@@ -1,15 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T13:42:36.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="rg6FVNiJUX1pBfCwghh_" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T13:43:48.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="a3zjr-u2Vfp2-b198_RG" version="20.4.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1182" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="E7loFCdjNfJ6ukyrNxnh-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Verdana;" edge="1" parent="1" source="E7loFCdjNfJ6ukyrNxnh-1" target="E7loFCdjNfJ6ukyrNxnh-33">
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontFamily=Verdana;" edge="1" parent="1" source="E7loFCdjNfJ6ukyrNxnh-1" target="E7loFCdjNfJ6ukyrNxnh-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="E7loFCdjNfJ6ukyrNxnh-41" value="invoice" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="E7loFCdjNfJ6ukyrNxnh-34">
-          <mxGeometry x="0.3093" y="2" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-57" value="invoicing" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="E7loFCdjNfJ6ukyrNxnh-56">
+          <mxGeometry x="0.146" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.468;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontFamily=Verdana;" edge="1" parent="1" source="E7loFCdjNfJ6ukyrNxnh-1" target="E7loFCdjNfJ6ukyrNxnh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E7loFCdjNfJ6ukyrNxnh-59" value="ship management" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" vertex="1" connectable="0" parent="E7loFCdjNfJ6ukyrNxnh-58">
+          <mxGeometry x="0.1121" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="E7loFCdjNfJ6ukyrNxnh-1" value="customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
@@ -23,22 +31,6 @@
         </mxCell>
         <mxCell id="E7loFCdjNfJ6ukyrNxnh-14" value="ecommerce" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="310" width="370" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="E7loFCdjNfJ6ukyrNxnh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;fontFamily=Verdana;shadow=0;" edge="1" parent="1" source="E7loFCdjNfJ6ukyrNxnh-1" target="E7loFCdjNfJ6ukyrNxnh-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="210" as="sourcePoint" />
-            <mxPoint x="270" y="355" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="240" y="160" />
-              <mxPoint x="240" y="290" />
-              <mxPoint x="220" y="290" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="E7loFCdjNfJ6ukyrNxnh-25" value="ship management" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;rotation=0;" vertex="1" connectable="0" parent="E7loFCdjNfJ6ukyrNxnh-10">
-          <mxGeometry x="-0.5704" y="-4" relative="1" as="geometry">
-            <mxPoint x="2" y="66" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="E7loFCdjNfJ6ukyrNxnh-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E7loFCdjNfJ6ukyrNxnh-11" target="E7loFCdjNfJ6ukyrNxnh-16">
           <mxGeometry relative="1" as="geometry" />
