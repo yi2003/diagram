@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T08:06:42.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="jcbddmAlQfhnxm-YMw7s" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T08:07:13.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Sw_CRYojEJ_a2T6JV52a" version="20.6.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1104" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -51,7 +51,7 @@
           <mxGeometry x="527" y="130" width="253" height="210" as="geometry" />
         </mxCell>
         <mxCell id="E7loFCdjNfJ6ukyrNxnh-21" value="baiwang" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="730" y="600" width="300" height="110" as="geometry" />
+          <mxGeometry x="730" y="580" width="300" height="110" as="geometry" />
         </mxCell>
         <mxCell id="E7loFCdjNfJ6ukyrNxnh-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontFamily=Verdana;" parent="1" source="E7loFCdjNfJ6ukyrNxnh-33" target="E7loFCdjNfJ6ukyrNxnh-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -95,7 +95,7 @@
         </mxCell>
         <mxCell id="E7loFCdjNfJ6ukyrNxnh-55" value="NCC GROUPING" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Verdana;" parent="E7loFCdjNfJ6ukyrNxnh-50" vertex="1" connectable="0">
           <mxGeometry x="0.3111" y="-2" relative="1" as="geometry">
-            <mxPoint x="24" y="-42" as="offset" />
+            <mxPoint x="42" y="-66" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="djNx64QSyDI6BWpiWlPC-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E7loFCdjNfJ6ukyrNxnh-43" target="djNx64QSyDI6BWpiWlPC-17">
@@ -167,7 +167,7 @@
           <mxGeometry x="730" y="430" width="215" height="100" as="geometry" />
         </mxCell>
         <mxCell id="E7loFCdjNfJ6ukyrNxnh-60" value="e-platform" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="600" width="260" height="110" as="geometry" />
+          <mxGeometry x="400" y="580" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="djNx64QSyDI6BWpiWlPC-3" value="NCC GROUPING" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="470" width="120" height="35" as="geometry" />
