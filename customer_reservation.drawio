@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T13:22:49.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="woi-1TXL0QWr01HVBuNQ" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-08T13:25:35.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LNvFBMuh_GMYhrzjrVaE" version="20.6.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -42,7 +42,19 @@
           <mxGeometry x="60" y="140" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hGjtUX6-G6aYjwRIEp4b-4" value="Biz_TFapiaoReservation" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="700" y="80" width="40" height="300" as="geometry" />
+          <mxGeometry x="650" y="80" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hGjtUX6-G6aYjwRIEp4b-5" value="LARA" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="80" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hGjtUX6-G6aYjwRIEp4b-6" value="HANGXIN" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="80" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hGjtUX6-G6aYjwRIEp4b-10" value="MQ" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="80" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hGjtUX6-G6aYjwRIEp4b-11" value="BIZ_TInvoiceTracker" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="40" width="40" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
