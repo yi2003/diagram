@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T09:41:56.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="NHKrnXs2LAICyBiVgwhW" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T09:43:42.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="85UijihbkWdcfy_7DX8_" version="20.6.0" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
     <mxGraphModel dx="1689" dy="1077" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -45,13 +45,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8AGGI85d68rVye7En7mw-166" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;bank callback payment satus&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" parent="8AGGI85d68rVye7En7mw-135" vertex="1">
-          <mxGeometry x="339" y="139" width="120" height="60" as="geometry" />
+          <mxGeometry x="352" y="139" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8AGGI85d68rVye7En7mw-171" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;" parent="8AGGI85d68rVye7En7mw-135" source="8AGGI85d68rVye7En7mw-168" target="8AGGI85d68rVye7En7mw-166" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8AGGI85d68rVye7En7mw-168" value="" style="ellipse;html=1;shape=startState;fillColor=none;strokeColor=default;fontColor=none;noLabel=1;" parent="8AGGI85d68rVye7En7mw-135" vertex="1">
-          <mxGeometry x="377.75" y="43" width="42.5" height="43" as="geometry" />
+          <mxGeometry x="389.75" y="45" width="42.5" height="43" as="geometry" />
         </mxCell>
         <mxCell id="RjHNDGc8zNgWSMFkBe8W-12" value="cash customer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8AGGI85d68rVye7En7mw-135" source="RjHNDGc8zNgWSMFkBe8W-9" target="RjHNDGc8zNgWSMFkBe8W-11">
           <mxGeometry relative="1" as="geometry" />
@@ -76,7 +76,7 @@
         <mxCell id="RjHNDGc8zNgWSMFkBe8W-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8AGGI85d68rVye7En7mw-135" source="RjHNDGc8zNgWSMFkBe8W-17" target="8AGGI85d68rVye7En7mw-146">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RjHNDGc8zNgWSMFkBe8W-17" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;all the import cash customers LARA invoices of the BL are paid&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="8AGGI85d68rVye7En7mw-135">
+        <mxCell id="RjHNDGc8zNgWSMFkBe8W-17" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;all the import cash customer&#39;s LARA invoices of the BL are paid&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="8AGGI85d68rVye7En7mw-135">
           <mxGeometry x="335" y="373" width="156" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RjHNDGc8zNgWSMFkBe8W-35" value="" style="ellipse;html=1;shape=startState;fillColor=none;strokeColor=default;fontColor=none;noLabel=1;" vertex="1" parent="8AGGI85d68rVye7En7mw-135">
@@ -100,20 +100,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8AGGI85d68rVye7En7mw-177" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;fontColor=none;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
-          <mxGeometry x="260" y="40" width="30" height="30" as="geometry" />
+          <mxGeometry x="255" y="47" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8AGGI85d68rVye7En7mw-181" value="&lt;span lang=&quot;EN-US&quot;&gt;in the page “Invoice Collection per B/L” , &lt;br&gt;1)&amp;nbsp; the bl record value of “Is Usd paid” changed to “checked”, &lt;br&gt;2）“Is RMB Paid” changed to “checked”, &lt;br&gt;3)&amp;nbsp; “Is Finalize&lt;/span&gt;&lt;span&gt;“ &lt;span lang=&quot;EN-US&quot;&gt;changed to “checked”,&lt;br&gt;4)&amp;nbsp; “IsAllConfirm” change to “Y”,&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontColor=none;fillColor=none;align=left;verticalAlign=top;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
           <mxGeometry x="70" y="250" width="340" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="8AGGI85d68rVye7En7mw-180" value="&lt;br&gt;&lt;span&gt;华南&lt;/span&gt;&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8AGGI85d68rVye7En7mw-136" source="8AGGI85d68rVye7En7mw-177" target="8AGGI85d68rVye7En7mw-181" edge="1">
+        <mxCell id="8AGGI85d68rVye7En7mw-180" value="&lt;br&gt;&lt;span&gt;华南&lt;/span&gt;&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8AGGI85d68rVye7En7mw-136" edge="1">
           <mxGeometry x="-0.2129" y="-2" relative="1" as="geometry">
-            <mxPoint x="360" y="55" as="targetPoint" />
+            <mxPoint x="246" y="258" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="400" y="55" />
-              <mxPoint x="400" y="220" />
-              <mxPoint x="240" y="220" />
+              <mxPoint x="406" y="63" />
+              <mxPoint x="406" y="228" />
+              <mxPoint x="246" y="228" />
             </Array>
             <mxPoint as="offset" />
+            <mxPoint x="284" y="63.00000000000023" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8AGGI85d68rVye7En7mw-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;" parent="8AGGI85d68rVye7En7mw-136" source="8AGGI85d68rVye7En7mw-191" target="8AGGI85d68rVye7En7mw-160" edge="1">
@@ -150,12 +151,13 @@
         <mxCell id="8AGGI85d68rVye7En7mw-196" value="&lt;span lang=&quot;EN-US&quot;&gt;in the page “Invoice Collection per B/L” ,&lt;br&gt;1)&amp;nbsp; the bl record value of&amp;nbsp; “Is RMB Paid”&amp;nbsp; or &quot;Is USD Paid&quot; changed to “unchecked”, base on the unpaid invoice currency.&lt;br&gt;2)&amp;nbsp; “Is Finalize&lt;/span&gt;“&amp;nbsp;&lt;span lang=&quot;EN-US&quot;&gt;changed to “unchecked”,&lt;br&gt;3)&amp;nbsp; “IsAllConfirm” change to “N”,&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontColor=none;fillColor=none;align=left;verticalAlign=top;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
           <mxGeometry x="440" y="250" width="330" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="8AGGI85d68rVye7En7mw-188" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;" parent="8AGGI85d68rVye7En7mw-134" edge="1">
+        <mxCell id="8AGGI85d68rVye7En7mw-188" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8AGGI85d68rVye7En7mw-134" target="8AGGI85d68rVye7En7mw-177" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="267" y="630" as="sourcePoint" />
             <mxPoint x="270.00000000000045" y="819" as="targetPoint" />
             <Array as="points">
               <mxPoint x="270" y="630" />
+              <mxPoint x="270" y="730" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -187,11 +189,12 @@
         <mxCell id="RjHNDGc8zNgWSMFkBe8W-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="8AGGI85d68rVye7En7mw-134" source="8AGGI85d68rVye7En7mw-151" target="8AGGI85d68rVye7En7mw-191">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RjHNDGc8zNgWSMFkBe8W-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="RjHNDGc8zNgWSMFkBe8W-17">
+        <mxCell id="RjHNDGc8zNgWSMFkBe8W-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RjHNDGc8zNgWSMFkBe8W-37" target="RjHNDGc8zNgWSMFkBe8W-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="507.00000000000045" y="386" as="sourcePoint" />
             <mxPoint x="742" y="543" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="507" y="420" />
               <mxPoint x="507" y="502" />
               <mxPoint x="732" y="502" />
             </Array>
