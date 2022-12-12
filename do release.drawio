@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T09:44:02.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="PbatnDg_j7bz4h0MZ0ub" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T09:52:43.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ubLkFtgGFXMUqBP7jMdc" version="20.6.0" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
     <mxGraphModel dx="1689" dy="1077" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -85,14 +85,21 @@
         <mxCell id="8AGGI85d68rVye7En7mw-136" value="Fin Team" style="swimlane;startSize=20;horizontal=0;html=1;" parent="8AGGI85d68rVye7En7mw-134" vertex="1">
           <mxGeometry y="690" width="870" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="8AGGI85d68rVye7En7mw-157" value="&lt;span lang=&quot;EN-US&quot;&gt;in the “Invoice collection per reservation” page,&lt;br&gt;1)the reservation data value of “received” changed to “checked”, &lt;br&gt;2) D/O release message will be published, &lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3) The “ftp” will be changed to “&lt;/span&gt;checked&lt;span style=&quot;background-color: initial;&quot;&gt;”&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;align=left;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
-          <mxGeometry x="40" y="115" width="270" height="90" as="geometry" />
+        <mxCell id="8AGGI85d68rVye7En7mw-157" value="&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp;In the “Invoice collection per reservation” page,&lt;br&gt;1) The reservation data value of “received” changed to “checked”, &lt;br&gt;2) D/O release message will be published by ftp&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3) The “ftp” will be changed to “&lt;/span&gt;checked&lt;span style=&quot;background-color: initial;&quot;&gt;”&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;align=left;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
+          <mxGeometry x="70" y="115" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="8AGGI85d68rVye7En7mw-160" value="&lt;span lang=&quot;EN-US&quot;&gt;in the “Invoice collection per reservation” page,&lt;br&gt;1) reservation data value of “received” changed to&lt;br&gt;“unchecked”.&lt;br&gt;2) The ftp value no changes.&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;align=left;verticalAlign=top;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
-          <mxGeometry x="440" y="120" width="290" height="80" as="geometry" />
+        <mxCell id="8AGGI85d68rVye7En7mw-160" value="&lt;span lang=&quot;EN-US&quot;&gt;&amp;nbsp;In the “Invoice collection per reservation” page,&lt;br&gt;1) The reservation data value of “received”&lt;br&gt;&amp;nbsp;changed to “unchecked”.&lt;br&gt;2) If the D/O release message already published by ftp, then it cannot be rollback, The ftp value remains unchanged.&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;align=left;verticalAlign=top;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
+          <mxGeometry x="440" y="120" width="290" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="8AGGI85d68rVye7En7mw-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.378;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=none;" parent="8AGGI85d68rVye7En7mw-136" source="8AGGI85d68rVye7En7mw-177" target="8AGGI85d68rVye7En7mw-157" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8AGGI85d68rVye7En7mw-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.378;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=none;" parent="8AGGI85d68rVye7En7mw-136" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270.00000000000045" y="76.99999999999977" as="sourcePoint" />
+            <mxPoint x="142.05999999999995" y="115.35999999999967" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="87" />
+              <mxPoint x="142" y="87" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="8AGGI85d68rVye7En7mw-179" value="CNSHA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=none;" parent="8AGGI85d68rVye7En7mw-178" vertex="1" connectable="0">
           <mxGeometry x="0.0973" y="-1" relative="1" as="geometry">
@@ -102,8 +109,8 @@
         <mxCell id="8AGGI85d68rVye7En7mw-177" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;fontColor=none;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
           <mxGeometry x="255" y="47" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8AGGI85d68rVye7En7mw-181" value="&lt;span lang=&quot;EN-US&quot;&gt;in the page “Invoice Collection per B/L” , &lt;br&gt;1)&amp;nbsp; the bl record value of “Is Usd paid” changed to “checked”, &lt;br&gt;2）“Is RMB Paid” changed to “checked”, &lt;br&gt;3)&amp;nbsp; “Is Finalize&lt;/span&gt;&lt;span&gt;“ &lt;span lang=&quot;EN-US&quot;&gt;changed to “checked”,&lt;br&gt;4)&amp;nbsp; “IsAllConfirm” change to “Y”,&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontColor=none;fillColor=none;align=left;verticalAlign=top;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
-          <mxGeometry x="70" y="250" width="340" height="99" as="geometry" />
+        <mxCell id="8AGGI85d68rVye7En7mw-181" value="&lt;span lang=&quot;EN-US&quot;&gt;In the page “Invoice Collection per B/L” , &lt;br&gt;1)&amp;nbsp; The bl record value of “Is Usd paid” changed to “checked”, &lt;br&gt;2）“Is RMB Paid” changed to “checked”, &lt;br&gt;3)&amp;nbsp; “Is Finalize&lt;/span&gt;&lt;span&gt;“ &lt;span lang=&quot;EN-US&quot;&gt;changed to “checked”,&lt;br&gt;4)&amp;nbsp; “IsAllConfirm” change to “Y”,&lt;/span&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontColor=none;fillColor=none;align=left;verticalAlign=top;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
+          <mxGeometry x="70" y="256" width="340" height="99" as="geometry" />
         </mxCell>
         <mxCell id="8AGGI85d68rVye7En7mw-180" value="&lt;br&gt;&lt;span&gt;华南&lt;/span&gt;&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8AGGI85d68rVye7En7mw-136" edge="1">
           <mxGeometry x="-0.2129" y="-2" relative="1" as="geometry">
@@ -133,8 +140,8 @@
         <mxCell id="8AGGI85d68rVye7En7mw-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;entryX=0.558;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="8AGGI85d68rVye7En7mw-136" source="8AGGI85d68rVye7En7mw-191" target="8AGGI85d68rVye7En7mw-196" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="750" y="57" />
-              <mxPoint x="750" y="219" />
+              <mxPoint x="781" y="57" />
+              <mxPoint x="781" y="219" />
               <mxPoint x="624" y="219" />
             </Array>
             <mxPoint x="626" y="247" as="targetPoint" />
@@ -148,8 +155,8 @@
         <mxCell id="8AGGI85d68rVye7En7mw-191" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;fontColor=none;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
           <mxGeometry x="622" y="45" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8AGGI85d68rVye7En7mw-196" value="&lt;span lang=&quot;EN-US&quot;&gt;in the page “Invoice Collection per B/L” ,&lt;br&gt;1)&amp;nbsp; the bl record value of&amp;nbsp; “Is RMB Paid”&amp;nbsp; or &quot;Is USD Paid&quot; changed to “unchecked”, base on the unpaid invoice currency.&lt;br&gt;2)&amp;nbsp; “Is Finalize&lt;/span&gt;“&amp;nbsp;&lt;span lang=&quot;EN-US&quot;&gt;changed to “unchecked”,&lt;br&gt;3)&amp;nbsp; “IsAllConfirm” change to “N”,&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontColor=none;fillColor=none;align=left;verticalAlign=top;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
-          <mxGeometry x="440" y="250" width="330" height="95" as="geometry" />
+        <mxCell id="8AGGI85d68rVye7En7mw-196" value="&lt;span lang=&quot;EN-US&quot;&gt;In the page “Invoice Collection per B/L” ,&lt;br&gt;1)&amp;nbsp; The bl record value of&amp;nbsp; “Is RMB Paid”&amp;nbsp; or &quot;Is USD Paid&quot; changed to “unchecked”, base on the unpaid invoice currency.&lt;br&gt;2)&amp;nbsp; “Is Finalize&lt;/span&gt;“&amp;nbsp;&lt;span lang=&quot;EN-US&quot;&gt;changed to “unchecked”,&lt;br&gt;3)&amp;nbsp; “IsAllConfirm” change to “N”,&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontColor=none;fillColor=none;align=left;verticalAlign=top;" parent="8AGGI85d68rVye7En7mw-136" vertex="1">
+          <mxGeometry x="440" y="258" width="330" height="95" as="geometry" />
         </mxCell>
         <mxCell id="8AGGI85d68rVye7En7mw-188" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="8AGGI85d68rVye7En7mw-134" target="8AGGI85d68rVye7En7mw-177" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -175,7 +182,7 @@
           <mxGeometry y="1070" width="870" height="255" as="geometry" />
         </mxCell>
         <mxCell id="8AGGI85d68rVye7En7mw-198" value="&lt;span lang=&quot;EN-US&quot;&gt;in the page , &quot;Import- Release D/O&quot; the record with &quot;FIN Status&quot; unchecked&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontColor=none;fillColor=none;" parent="8AGGI85d68rVye7En7mw-137" vertex="1">
-          <mxGeometry x="475" y="40" width="260" height="60" as="geometry" />
+          <mxGeometry x="475" y="47" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RjHNDGc8zNgWSMFkBe8W-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="8AGGI85d68rVye7En7mw-137" source="8AGGI85d68rVye7En7mw-190" target="RjHNDGc8zNgWSMFkBe8W-4">
           <mxGeometry relative="1" as="geometry" />
