@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-14T01:39:56.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="9nPgxFZmR59zE98xRTVs" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-14T01:41:20.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="8_chJ9x6GITrdnWbxZEC" version="20.6.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1182" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -22,22 +22,17 @@
         <mxCell id="0HO_ofuyOMyAhvDu8aWt-10" value="fapiao is ready" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0HO_ofuyOMyAhvDu8aWt-2">
           <mxGeometry x="150" y="17.5" width="60" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="0HO_ofuyOMyAhvDu8aWt-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0HO_ofuyOMyAhvDu8aWt-2" source="0HO_ofuyOMyAhvDu8aWt-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="408.125" y="48.754999999999995" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0HO_ofuyOMyAhvDu8aWt-17" value="paper type" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0HO_ofuyOMyAhvDu8aWt-16">
-          <mxGeometry x="0.4143" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="0HO_ofuyOMyAhvDu8aWt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0HO_ofuyOMyAhvDu8aWt-2" source="0HO_ofuyOMyAhvDu8aWt-13" target="0HO_ofuyOMyAhvDu8aWt-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="429" y="50" />
               <mxPoint x="429" y="49" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0HO_ofuyOMyAhvDu8aWt-20" value="paper type" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0HO_ofuyOMyAhvDu8aWt-19">
+          <mxGeometry x="-0.1487" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0HO_ofuyOMyAhvDu8aWt-13" value="fapiao type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0HO_ofuyOMyAhvDu8aWt-2">
