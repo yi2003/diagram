@@ -1,28 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-12-14T04:46:01.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="eJzY6bYda4d-zbpUoafa" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-14T04:49:00.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="9Y_j6hZ9BT61wM_zGGkG" version="20.6.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1182" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cQ8S9fsIAYZrspqTVOWr-1" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="100" width="480" height="460" as="geometry" />
+          <mxGeometry x="130" y="40" width="480" height="460" as="geometry" />
         </mxCell>
         <mxCell id="cQ8S9fsIAYZrspqTVOWr-2" value="gbs" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="cQ8S9fsIAYZrspqTVOWr-1">
-          <mxGeometry y="20" width="480" height="200" as="geometry" />
+          <mxGeometry y="20" width="480" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cQ8S9fsIAYZrspqTVOWr-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cQ8S9fsIAYZrspqTVOWr-2">
-          <mxGeometry x="140" y="30" width="40" height="40" as="geometry" />
+          <mxGeometry x="310" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cQ8S9fsIAYZrspqTVOWr-9" value="customer" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="cQ8S9fsIAYZrspqTVOWr-1">
+          <mxGeometry y="130" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cQ8S9fsIAYZrspqTVOWr-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="cQ8S9fsIAYZrspqTVOWr-9">
+          <mxGeometry x="70" y="37" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="cQ8S9fsIAYZrspqTVOWr-3" value="ltk" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="cQ8S9fsIAYZrspqTVOWr-1">
-          <mxGeometry y="220" width="480" height="120" as="geometry" />
+          <mxGeometry y="230" width="480" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="cQ8S9fsIAYZrspqTVOWr-7" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="cQ8S9fsIAYZrspqTVOWr-3">
-          <mxGeometry x="120" y="30" width="120" height="60" as="geometry" />
+        <mxCell id="cQ8S9fsIAYZrspqTVOWr-7" value="舱单数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="cQ8S9fsIAYZrspqTVOWr-3">
+          <mxGeometry x="270" y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cQ8S9fsIAYZrspqTVOWr-12" value="预约数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="cQ8S9fsIAYZrspqTVOWr-3">
+          <mxGeometry x="70" y="30" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cQ8S9fsIAYZrspqTVOWr-4" value="Lane 3" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="cQ8S9fsIAYZrspqTVOWr-1">
-          <mxGeometry y="340" width="480" height="120" as="geometry" />
+          <mxGeometry y="350" width="480" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cQ8S9fsIAYZrspqTVOWr-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cQ8S9fsIAYZrspqTVOWr-1" source="cQ8S9fsIAYZrspqTVOWr-5" target="cQ8S9fsIAYZrspqTVOWr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cQ8S9fsIAYZrspqTVOWr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="cQ8S9fsIAYZrspqTVOWr-1" source="cQ8S9fsIAYZrspqTVOWr-10" target="cQ8S9fsIAYZrspqTVOWr-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
