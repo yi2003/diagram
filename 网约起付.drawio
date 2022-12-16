@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T12:29:19.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="CYDmCrm2K_bwTJ9Xrd9q" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T12:31:52.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="U_Y6WCWfUPLEzi0RWoTv" type="github">
   <diagram id="JNPCs_gOcxYZxowklzls" name="Page-1">
     <mxGraphModel dx="1404" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -164,11 +164,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-35" value="WYQFPaymentStatus" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1150" width="220" height="300" as="geometry" />
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-35" value="https://www.cma-cgm.com.cn/thunderbank-pre/api/EZPay/WYQFPaymentStatus" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1150" width="410" height="300" as="geometry" />
         </mxCell>
         <mxCell id="XE-wUI4xG0B0tWC4ZzCH-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XE-wUI4xG0B0tWC4ZzCH-36" target="XE-wUI4xG0B0tWC4ZzCH-35">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-38" value="推送状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XE-wUI4xG0B0tWC4ZzCH-37">
+          <mxGeometry x="-0.1878" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="XE-wUI4xG0B0tWC4ZzCH-36" value="ezpay" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="1150" width="50" height="300" as="geometry" />
