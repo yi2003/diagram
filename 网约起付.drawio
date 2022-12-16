@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T10:35:08.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="-uVM1usNKf4U_CDnLjcw" type="github"><diagram id="MEfP0U84aYLoB4WYLO3l">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-16T11:30:41.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="px1ISSUO84n92ZLREdZB" type="github">
+  <diagram id="JNPCs_gOcxYZxowklzls" name="Page-1">
+    <mxGraphModel dx="1404" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-2" value="WangYueQiFu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XE-wUI4xG0B0tWC4ZzCH-1" target="XE-wUI4xG0B0tWC4ZzCH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="330" />
+              <mxPoint x="290" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-1" value="empployee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-3" value="taxinvoicelist" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XE-wUI4xG0B0tWC4ZzCH-3">
+          <mxGeometry x="45" y="110" width="10" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XE-wUI4xG0B0tWC4ZzCH-3">
+          <mxGeometry x="55" y="140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-6" value="校验是否已生成发票" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="XE-wUI4xG0B0tWC4ZzCH-5" parent="XE-wUI4xG0B0tWC4ZzCH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XE-wUI4xG0B0tWC4ZzCH-3">
+          <mxGeometry x="50" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-8" value="检查支付状态（0，3，4，5）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="XE-wUI4xG0B0tWC4ZzCH-7" parent="XE-wUI4xG0B0tWC4ZzCH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="XE-wUI4xG0B0tWC4ZzCH-3">
+          <mxGeometry x="50" y="350" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-10" value="&amp;nbsp;校验是否已在荣E通绑定预约支付账号" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="XE-wUI4xG0B0tWC4ZzCH-9" parent="XE-wUI4xG0B0tWC4ZzCH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-11" value="Biz_TEZPayAutoSetup" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="650" y="240" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-12" value="谁维护的？" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="790" y="110" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="XE-wUI4xG0B0tWC4ZzCH-11" target="XE-wUI4xG0B0tWC4ZzCH-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="470" as="sourcePoint" />
+            <mxPoint x="740" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
