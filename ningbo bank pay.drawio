@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T06:52:21.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="bxQoKkERQ_SemAplPi4N" version="20.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T06:54:33.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="1EiRENWB6nzWHNj21F84" version="20.7.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1194" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -128,8 +128,25 @@
         <mxCell id="0HO_ofuyOMyAhvDu8aWt-3" value="thunder client (employee)&amp;nbsp;" style="swimlane;startSize=20;horizontal=0;html=1;" parent="0HO_ofuyOMyAhvDu8aWt-1" vertex="1">
           <mxGeometry y="480" width="1060" height="190" as="geometry" />
         </mxCell>
+        <mxCell id="yFI7RqRPnoxLJEd50RjQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="0HO_ofuyOMyAhvDu8aWt-3" source="yFI7RqRPnoxLJEd50RjQ-18" target="yFI7RqRPnoxLJEd50RjQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="yFI7RqRPnoxLJEd50RjQ-18" value="" style="ellipse;fontSize=12;" vertex="1" parent="0HO_ofuyOMyAhvDu8aWt-3">
-          <mxGeometry x="100" y="90" width="30" height="30" as="geometry" />
+          <mxGeometry x="80" y="90" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yFI7RqRPnoxLJEd50RjQ-22" value="" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=20;dashed=1;fontSize=12;" vertex="1" parent="0HO_ofuyOMyAhvDu8aWt-3">
+          <mxGeometry x="120" y="55" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yFI7RqRPnoxLJEd50RjQ-19" value="batch payment confirmation" style="whiteSpace=wrap;html=1;fillColor=rgb(255, 255, 255);fontSize=12;" vertex="1" parent="0HO_ofuyOMyAhvDu8aWt-3">
+          <mxGeometry x="160" y="75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="lara invoice management" placeholders="1" name="Variable" id="yFI7RqRPnoxLJEd50RjQ-23">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;" vertex="1" parent="0HO_ofuyOMyAhvDu8aWt-3">
+            <mxGeometry x="120" y="55" width="140" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="yFI7RqRPnoxLJEd50RjQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="0HO_ofuyOMyAhvDu8aWt-1" source="yFI7RqRPnoxLJEd50RjQ-19" target="12KazT56AaLtVAZ6rXiU-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="12KazT56AaLtVAZ6rXiU-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);startSize=20;" parent="1" source="12KazT56AaLtVAZ6rXiU-31" target="12KazT56AaLtVAZ6rXiU-38" edge="1">
           <mxGeometry relative="1" as="geometry">
