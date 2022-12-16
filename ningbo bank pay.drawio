@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T02:44:21.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="wQZzuzLuQ9wsLmJoZYbG" version="20.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T06:52:21.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="bxQoKkERQ_SemAplPi4N" version="20.7.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1194" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -127,6 +127,9 @@
         </mxCell>
         <mxCell id="0HO_ofuyOMyAhvDu8aWt-3" value="thunder client (employee)&amp;nbsp;" style="swimlane;startSize=20;horizontal=0;html=1;" parent="0HO_ofuyOMyAhvDu8aWt-1" vertex="1">
           <mxGeometry y="480" width="1060" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="yFI7RqRPnoxLJEd50RjQ-18" value="" style="ellipse;fontSize=12;" vertex="1" parent="0HO_ofuyOMyAhvDu8aWt-3">
+          <mxGeometry x="100" y="90" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="12KazT56AaLtVAZ6rXiU-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);startSize=20;" parent="1" source="12KazT56AaLtVAZ6rXiU-31" target="12KazT56AaLtVAZ6rXiU-38" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -259,6 +262,11 @@
         </mxCell>
         <mxCell id="yFI7RqRPnoxLJEd50RjQ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.817;entryY=0.983;entryDx=0;entryDy=0;fontSize=12;entryPerimeter=0;" edge="1" parent="1" source="yFI7RqRPnoxLJEd50RjQ-10" target="12KazT56AaLtVAZ6rXiU-31">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yFI7RqRPnoxLJEd50RjQ-17" value="更新支付成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="yFI7RqRPnoxLJEd50RjQ-11">
+          <mxGeometry x="0.463" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
