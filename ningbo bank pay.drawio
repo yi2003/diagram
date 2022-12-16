@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T09:23:34.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="mUF7XFo_1pwd4Q9DR5qO" version="20.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-16T09:24:22.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="K9Yu7m-_RcyDX4Z6FXHr" version="20.7.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1194" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -227,7 +227,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0HO_ofuyOMyAhvDu8aWt-4" value="ningbo bank" style="swimlane;startSize=20;horizontal=0;html=1;" parent="1" vertex="1">
+        <mxCell id="0HO_ofuyOMyAhvDu8aWt-4" value="ningbo bank" style="swimlane;startSize=20;horizontal=0;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="90" y="971" width="1060" height="170" as="geometry" />
         </mxCell>
         <mxCell id="12KazT56AaLtVAZ6rXiU-25" value="支付银行" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=rgb(0, 0, 0);fontFamily=Helvetica;fontSize=12;fontColor=rgb(0, 0, 0);startSize=20;fillColor=rgb(255, 255, 255);" parent="0HO_ofuyOMyAhvDu8aWt-4" vertex="1">
