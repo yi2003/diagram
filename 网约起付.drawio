@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T12:43:11.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="2VdotLynua-e4V9v19px" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-17T11:55:13.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="Pf6JgqHjjBBCWXUf-TeD" type="github">
   <diagram id="JNPCs_gOcxYZxowklzls" name="Page-1">
     <mxGraphModel dx="1404" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -178,6 +178,29 @@
         </mxCell>
         <mxCell id="XE-wUI4xG0B0tWC4ZzCH-36" value="ezpay" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="1150" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-39" value="https://www.cma-cgm.com.cn/thunderbank-pre/api/EZPay/WangYueQiFuCallBack" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1500" width="410" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XE-wUI4xG0B0tWC4ZzCH-42" target="XE-wUI4xG0B0tWC4ZzCH-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-41" value="推送状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XE-wUI4xG0B0tWC4ZzCH-40">
+          <mxGeometry x="-0.1878" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-42" value="ezpay" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1500" width="50" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-43" value="确认发票回调&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;/// 发 票 确 认 状 态&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; /// 1 已确认&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; /// 2 取消确认&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; /// 3 有争议&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; /// 4 取消争议&lt;/span&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1520" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XE-wUI4xG0B0tWC4ZzCH-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="XE-wUI4xG0B0tWC4ZzCH-39" target="XE-wUI4xG0B0tWC4ZzCH-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="1450" as="sourcePoint" />
+            <mxPoint x="740" y="1400" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
