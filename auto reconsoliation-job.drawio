@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-16T12:44:34.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="QFC8uevnVjVPjRGdXFKX" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T01:28:25.087Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="dN_T0rPBCppYRBaEQkJ_" type="github">
   <diagram id="OD-rThRvp18rPemfhDfV" name="Page-1">
     <mxGraphModel dx="1404" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -59,8 +59,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RUlsroo4jw-sEmEoDUYH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="339.5" y="750" as="sourcePoint" />
+            <mxPoint x="1154.5" y="754" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1155" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUlsroo4jw-sEmEoDUYH-29" value="推送支付状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RUlsroo4jw-sEmEoDUYH-26">
+          <mxGeometry x="0.0989" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RUlsroo4jw-sEmEoDUYH-4" value="auto reconsoliation job" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=30;" vertex="1" parent="1">
-          <mxGeometry x="290" y="160" width="100" height="690" as="geometry" />
+          <mxGeometry x="290" y="160" width="100" height="730" as="geometry" />
         </mxCell>
         <mxCell id="RUlsroo4jw-sEmEoDUYH-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="RUlsroo4jw-sEmEoDUYH-4">
           <mxGeometry x="46" y="350" width="10" height="140" as="geometry" />
@@ -92,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RUlsroo4jw-sEmEoDUYH-18" value="1）根据remark 比较 $&quot;{paymentDetail.PaySeqNo}-{paymentDetail.BankOrderCode}&quot;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2）金额&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3）货币&lt;/span&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="420" y="570" width="590" height="80" as="geometry" />
+          <mxGeometry x="420" y="600" width="590" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RUlsroo4jw-sEmEoDUYH-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="RUlsroo4jw-sEmEoDUYH-4" target="RUlsroo4jw-sEmEoDUYH-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -111,6 +125,31 @@
         </mxCell>
         <mxCell id="RUlsroo4jw-sEmEoDUYH-25" value="mq&lt;br&gt;" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1300" y="150" width="50" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="RUlsroo4jw-sEmEoDUYH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="RUlsroo4jw-sEmEoDUYH-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="800" as="sourcePoint" />
+            <mxPoint x="1155" y="804" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1010" y="800" />
+              <mxPoint x="1010" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUlsroo4jw-sEmEoDUYH-30" value="推送支付状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RUlsroo4jw-sEmEoDUYH-27">
+          <mxGeometry x="0.0625" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUlsroo4jw-sEmEoDUYH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="RUlsroo4jw-sEmEoDUYH-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="342.75" y="850" as="sourcePoint" />
+            <mxPoint x="1247.25" y="854" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1290" y="850" />
+              <mxPoint x="1290" y="850" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
