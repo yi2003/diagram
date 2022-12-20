@@ -1,9 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-12-17T12:34:03.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="PnpvN1ctXiuUikC0wMyA" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T05:24:38.977Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.2" etag="nUXTSHT9JQS-jrnv5g0P" type="github">
   <diagram id="L64EDbuX12PYzA7cW2xy" name="Page-1">
     <mxGraphModel dx="1404" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R5m_KvKgsXJ3d5wTikri-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R5m_KvKgsXJ3d5wTikri-1" target="R5m_KvKgsXJ3d5wTikri-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="410" />
+              <mxPoint x="260" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5m_KvKgsXJ3d5wTikri-16" value="上传excel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="R5m_KvKgsXJ3d5wTikri-15">
+          <mxGeometry x="-0.2005" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="R5m_KvKgsXJ3d5wTikri-1" value="employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="380" width="30" height="60" as="geometry" />
         </mxCell>
@@ -35,14 +48,28 @@
             <mxPoint x="190" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R5m_KvKgsXJ3d5wTikri-11" value="biz_invoice" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="690" width="40" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="R5m_KvKgsXJ3d5wTikri-12" value="biz_invoiceExt" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=40;" vertex="1" parent="1">
-          <mxGeometry x="720" y="690" width="40" height="300" as="geometry" />
-        </mxCell>
         <mxCell id="R5m_KvKgsXJ3d5wTikri-13" value="Tinvoicebiz" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="690" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="R5m_KvKgsXJ3d5wTikri-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="R5m_KvKgsXJ3d5wTikri-13">
+          <mxGeometry x="45" y="180" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R5m_KvKgsXJ3d5wTikri-20" value="doManuallInvoicing" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="R5m_KvKgsXJ3d5wTikri-19" parent="R5m_KvKgsXJ3d5wTikri-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="160" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5m_KvKgsXJ3d5wTikri-22" value="1）&amp;nbsp;For charge type of “Agency Renumeration”, manual invoices will be grouped for A DN (COM + YYYYMM + Site + Carrier)&amp;nbsp;&lt;br&gt;2） Others Start With &quot;M&quot;" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;align=left;" vertex="1" parent="1">
+          <mxGeometry x="660" y="860" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="R5m_KvKgsXJ3d5wTikri-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0.008;entryY=0.336;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="R5m_KvKgsXJ3d5wTikri-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="860" as="sourcePoint" />
+            <mxPoint x="580" y="815" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
