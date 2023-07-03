@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T05:56:14.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7wlTw08xP8bVJjaeWxXy" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-03T06:02:13.222Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="cotdbiLEhnOK4DSvkZMh" version="21.5.0" type="github" pages="2">
   <diagram name="第 1 页" id="QOnTSSQmwPnzcd5Xkw5Z">
     <mxGraphModel dx="1434" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -190,6 +190,9 @@
         <mxCell id="5-Cu4zkN_AArqsfCvLDR-12" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;fontColor=#CCCCCC;strokeColor=#999999;" vertex="1" parent="5-Cu4zkN_AArqsfCvLDR-3">
           <mxGeometry x="420" y="130" width="30" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="5hda4A4tQYtA4arQF4cN-2" value="把wangyueqifu支付渠道取消。恢复为原来的（default, online, offline)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="5-Cu4zkN_AArqsfCvLDR-3">
+          <mxGeometry x="460" y="40" width="150" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="5-Cu4zkN_AArqsfCvLDR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5-Cu4zkN_AArqsfCvLDR-2" target="5-Cu4zkN_AArqsfCvLDR-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -197,6 +200,88 @@
           <mxGeometry x="-0.1647" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#999999;" edge="1" parent="1" source="RCgA2Q_LunHN1vg0GoKm-3" target="RCgA2Q_LunHN1vg0GoKm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-2" value="employee set &lt;br&gt;wangyueqifu for the customer&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#999999;" vertex="1" connectable="0" parent="RCgA2Q_LunHN1vg0GoKm-1">
+          <mxGeometry x="-0.4737" y="-2" relative="1" as="geometry">
+            <mxPoint x="51" y="58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-3" value="employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="390" y="520" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-4" value="" style="swimlane;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-5" value="ltk client" style="swimlane;whiteSpace=wrap;html=1;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="750" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-6" value="set paymethod=&#39;wangyueqifu&#39; on company profile" style="whiteSpace=wrap;html=1;verticalAlign=top;fontColor=#999999;" vertex="1" parent="RCgA2Q_LunHN1vg0GoKm-5">
+          <mxGeometry x="170" y="60" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-21" value="取消这个功能，业务不需要再设置wangyueqifu" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="RCgA2Q_LunHN1vg0GoKm-5">
+          <mxGeometry x="470" y="50" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-7" value="" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="710" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-8" value="ltk client" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="710" width="750" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-9" value="employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="RCgA2Q_LunHN1vg0GoKm-8">
+          <mxGeometry x="-135" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-10" value="select the tax invoice list&amp;nbsp; and click &quot;wangyueqifu&quot;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="RCgA2Q_LunHN1vg0GoKm-8">
+          <mxGeometry x="165" y="70" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="RCgA2Q_LunHN1vg0GoKm-8" source="RCgA2Q_LunHN1vg0GoKm-9" target="RCgA2Q_LunHN1vg0GoKm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-12" value="employee pay fapiao on tax invoice list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RCgA2Q_LunHN1vg0GoKm-11">
+          <mxGeometry x="-0.4737" y="-2" relative="1" as="geometry">
+            <mxPoint x="51" y="58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-22" value="业务发起网约启付，客户白名单从ezpay这里获取。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="RCgA2Q_LunHN1vg0GoKm-8">
+          <mxGeometry x="150" y="140" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-13" value="check wangyueqifu&amp;nbsp; config from ezpay" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RCgA2Q_LunHN1vg0GoKm-10" target="RCgA2Q_LunHN1vg0GoKm-17">
+          <mxGeometry x="0.7037" y="58" relative="1" as="geometry">
+            <mxPoint x="860" y="800" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="855" y="800" />
+              <mxPoint x="960" y="800" />
+            </Array>
+            <mxPoint x="-8" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-14" value="online" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RCgA2Q_LunHN1vg0GoKm-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-15" value="wangyueqifu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1042" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RCgA2Q_LunHN1vg0GoKm-17" target="RCgA2Q_LunHN1vg0GoKm-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-17" value="" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="940" y="820" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RCgA2Q_LunHN1vg0GoKm-17" target="RCgA2Q_LunHN1vg0GoKm-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="870" as="sourcePoint" />
+            <mxPoint x="960" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-19" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="945" y="900" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-20" value="send pay request to ezpay" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="840" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
