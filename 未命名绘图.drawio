@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-03T06:02:26.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="x6Iyi_jKHo87TMeTTOua" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-03T06:03:08.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="09rn1yxr0QKklG-cy7Cm" version="21.5.0" type="github" pages="2">
   <diagram name="第 1 页" id="QOnTSSQmwPnzcd5Xkw5Z">
     <mxGraphModel dx="1434" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
@@ -247,7 +247,7 @@
         <mxCell id="RCgA2Q_LunHN1vg0GoKm-22" value="业务发起网约启付，客户白名单从ezpay这里获取。" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="RCgA2Q_LunHN1vg0GoKm-8">
           <mxGeometry x="150" y="140" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="RCgA2Q_LunHN1vg0GoKm-13" value="check wangyueqifu&amp;nbsp; config from ezpay" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RCgA2Q_LunHN1vg0GoKm-10" target="RCgA2Q_LunHN1vg0GoKm-17">
+        <mxCell id="RCgA2Q_LunHN1vg0GoKm-13" value="check wangyueqifu&amp;nbsp; config from ezpay" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0000;fontColor=#FF0000;" edge="1" parent="1" source="RCgA2Q_LunHN1vg0GoKm-10" target="RCgA2Q_LunHN1vg0GoKm-17">
           <mxGeometry x="0.7037" y="58" relative="1" as="geometry">
             <mxPoint x="860" y="800" as="sourcePoint" />
             <Array as="points">
