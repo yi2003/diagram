@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T07:18:05.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="bmjeu3wNLmNmh_G3Gw5o" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T07:22:22.107Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="lpD2Pu7evS-20I2GGknq" version="21.6.9" type="github">
   <diagram name="第 1 页" id="mpA3fjl369TNl9NvuZEH">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,8 +16,26 @@
         <mxCell id="aOk2DJcT04LAwnS8p_ow-3" value="Consignee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="270" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Aq03lgx9IVbEHnPTXOw4-2" value="&lt;div class=&quot;lake-content&quot;&gt;Manage Invoing &amp;amp; Payments&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Aq03lgx9IVbEHnPTXOw4-2" value="&lt;div class=&quot;lake-content&quot;&gt;Manage Invoing &amp;amp; Payments access link&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="274" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq03lgx9IVbEHnPTXOw4-4" value="&lt;div class=&quot;lake-content&quot;&gt;Login into the agent system by access link&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq03lgx9IVbEHnPTXOw4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aq03lgx9IVbEHnPTXOw4-7" target="Aq03lgx9IVbEHnPTXOw4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq03lgx9IVbEHnPTXOw4-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Aq03lgx9IVbEHnPTXOw4-7" target="Aq03lgx9IVbEHnPTXOw4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq03lgx9IVbEHnPTXOw4-7" value="Agent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="460" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq03lgx9IVbEHnPTXOw4-8" value="&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp;Invoice or payment on specified invoices&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="480" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Aq03lgx9IVbEHnPTXOw4-10" value="Agent Invoiing / Payment System" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="400" height="510" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
