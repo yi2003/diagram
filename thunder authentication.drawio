@@ -1,9 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2023-09-08T09:42:16.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.5" etag="n4I4NHQ61chtFstwjrax" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-08T11:06:27.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="s4OhZe2GhUB3myoxqLL7" version="21.6.5" type="github">
   <diagram name="Page-1" id="Ga_OMSJbEuphNOoOsRO3">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="748" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.95;exitY=0.517;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Q7W5dG4OElqM2QdACTPc-1" target="Q7W5dG4OElqM2QdACTPc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="320" as="sourcePoint" />
+            <mxPoint x="840" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-5" value="2. redirect to &quot; https://auth.cma-cgm.com/as/authorization.oauth2?client_id=webapp-ltkweb&amp;amp;response_type=code&amp;amp;&lt;br&gt;scope=openid%20profile%20email%20customerprofile:read:fe&amp;amp;pfidpadapterid=ad..EXTERNAL&lt;br&gt;&amp;amp;redirect_uri=https://www.cma-cgm.com.cn/LaraToolkit/Account/SSOLogin &quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q7W5dG4OElqM2QdACTPc-4">
+          <mxGeometry x="-0.0667" y="-2" relative="1" as="geometry">
+            <mxPoint x="71" y="-62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.339;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q7W5dG4OElqM2QdACTPc-1" target="Q7W5dG4OElqM2QdACTPc-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="420" />
+              <mxPoint x="971" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-19" value="5. ltk use &quot;authentication code&quot; , “client_id&quot;, &quot;client_secret&quot;, &quot;scope&quot; to get &quot;token”" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q7W5dG4OElqM2QdACTPc-18">
+          <mxGeometry x="-0.4347" y="2" relative="1" as="geometry">
+            <mxPoint x="157" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-1" value="ltk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q7W5dG4OElqM2QdACTPc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="320" as="sourcePoint" />
+            <mxPoint x="320" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="317" />
+              <mxPoint x="900" y="320" />
+              <mxPoint x="870" y="320" />
+              <mxPoint x="870" y="370" />
+              <mxPoint x="595" y="370" />
+              <mxPoint x="595" y="380" />
+              <mxPoint x="320" y="380" />
+              <mxPoint x="320" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-14" value="4. page redirect to ltk and with the &quot;authentication code&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q7W5dG4OElqM2QdACTPc-13">
+          <mxGeometry x="-0.0203" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q7W5dG4OElqM2QdACTPc-3" target="Q7W5dG4OElqM2QdACTPc-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="670" as="sourcePoint" />
+            <mxPoint x="270" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="340" />
+              <mxPoint x="980" y="520" />
+              <mxPoint x="250" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-21" value="6 . return &quot;token&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q7W5dG4OElqM2QdACTPc-20">
+          <mxGeometry x="-0.134" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-3" value="pingfederate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q7W5dG4OElqM2QdACTPc-8" target="Q7W5dG4OElqM2QdACTPc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-10" value="1. click &quot;login&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q7W5dG4OElqM2QdACTPc-9">
+          <mxGeometry x="0.2485" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q7W5dG4OElqM2QdACTPc-8" target="Q7W5dG4OElqM2QdACTPc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="370" as="sourcePoint" />
+            <mxPoint x="978.04" y="458.98" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="140" />
+              <mxPoint x="990" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-17" value="3. customer input &quot;username&quot;　and “password&quot;”" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q7W5dG4OElqM2QdACTPc-16">
+          <mxGeometry x="0.0036" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q7W5dG4OElqM2QdACTPc-8" value="customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
