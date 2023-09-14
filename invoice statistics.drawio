@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T03:16:07.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.9" etag="rMaHHjCuSWMsklK3FwKB" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T03:28:31.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="HibNhVZ-SDcp7pBo1ALS" version="21.6.9" type="github">
   <diagram name="第 1 页" id="U7WvJ8p2vkNAnIwymcu2">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="1190" grid="0" gridSize="10" guides="0" tooltips="1" connect="0" arrows="0" fold="1" page="0" pageScale="1" pageWidth="10000" pageHeight="100000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Gsv8837VI0e4aWz39p8D-3" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Gsv8837VI0e4aWz39p8D-1" target="Gsv8837VI0e4aWz39p8D-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-1" value="invoice (09-03 ~ 09-11) &lt;br&gt;&lt;i&gt;流入thunder&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;126232&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="43" y="38" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-6" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Gsv8837VI0e4aWz39p8D-2" target="Gsv8837VI0e4aWz39p8D-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-7" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Gsv8837VI0e4aWz39p8D-2" target="Gsv8837VI0e4aWz39p8D-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-11" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Gsv8837VI0e4aWz39p8D-2" target="Gsv8837VI0e4aWz39p8D-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-12" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Gsv8837VI0e4aWz39p8D-2" target="Gsv8837VI0e4aWz39p8D-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-15" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Gsv8837VI0e4aWz39p8D-2" target="Gsv8837VI0e4aWz39p8D-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-16" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Gsv8837VI0e4aWz39p8D-2" target="Gsv8837VI0e4aWz39p8D-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-18" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Gsv8837VI0e4aWz39p8D-2" target="Gsv8837VI0e4aWz39p8D-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-21" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="Gsv8837VI0e4aWz39p8D-2" target="Gsv8837VI0e4aWz39p8D-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-2" value="invoice 开票时间（09-03 ~ 09-11）&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;45538&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="199.5" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-14" value="发票&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;13982&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="300" width="131.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-20" value="employee invoicing&amp;nbsp;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;37507&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-180" width="149" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-23" value="根据是客户预约还是empoyee预约" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-220" width="240.24" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-17" value="customer invoicing&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;8031&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="Gsv8837VI0e4aWz39p8D-23">
+          <mxGeometry x="38" y="132" width="146" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-24" value="根据是lara invoice 还是manual invoice区分" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="573" y="40" width="240.84" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-10" value="manual invoice&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;23332&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="Gsv8837VI0e4aWz39p8D-24">
+          <mxGeometry x="42" y="42" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Gsv8837VI0e4aWz39p8D-5" value="lara invoice&lt;br&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;22206&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="Gsv8837VI0e4aWz39p8D-24">
+          <mxGeometry x="48" y="113" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
