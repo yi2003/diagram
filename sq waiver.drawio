@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-21T07:21:57.285Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="7hSxyC_dQYRqAhdw2xmp" version="22.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-21T07:23:19.569Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="JgT6PQeJDDDUt6vgd7YI" version="22.1.3" type="github" pages="2">
   <diagram id="NZjDFBdzjhnRFRt552iQ" name="第 2 页">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -380,7 +380,7 @@
         <mxCell id="aRr3GqeImGx_psJpuIZ9-80" value="3) Disable" style="shape=rect;strokeColor=#82b366;fillColor=#d5e8d4;strokeWidth=1;dashed=0;rounded=1;arcSize=20;fontSize=17;spacing=2;spacingTop=-2;align=left;autosize=1;spacingLeft=4;resizeWidth=0;resizeHeight=0;perimeter=none;html=1;whiteSpace=wrap;" vertex="1" parent="aRr3GqeImGx_psJpuIZ9-79">
           <mxGeometry x="5" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aRr3GqeImGx_psJpuIZ9-81" value="&lt;br&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;When generating a manual invoice, the system will check BL&#39;s quotation code&amp;nbsp; exists in the sq waive list. If it exists, no manual invoice is generated." style="shape=mxgraph.mockup.containers.marginRect;rectMarginTop=10;strokeColor=none;strokeWidth=1;dashed=0;rounded=1;arcSize=5;recursiveResize=0;html=1;whiteSpace=wrap;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="aRr3GqeImGx_psJpuIZ9-81" value="&lt;br&gt;&lt;br&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;When generating a manual invoice, the system will check BL&#39;s quotation code&amp;nbsp; exists in the sq waive list. If it exists, no manual invoice will be generated." style="shape=mxgraph.mockup.containers.marginRect;rectMarginTop=10;strokeColor=none;strokeWidth=1;dashed=0;rounded=1;arcSize=5;recursiveResize=0;html=1;whiteSpace=wrap;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="38" y="-440" width="740" height="130" as="geometry" />
         </mxCell>
         <mxCell id="aRr3GqeImGx_psJpuIZ9-82" value="4) SQ Waive" style="shape=rect;strokeColor=#82b366;fillColor=#d5e8d4;strokeWidth=1;dashed=0;rounded=1;arcSize=20;fontSize=17;spacing=2;spacingTop=-2;align=left;autosize=1;spacingLeft=4;resizeWidth=0;resizeHeight=0;perimeter=none;html=1;whiteSpace=wrap;" vertex="1" parent="aRr3GqeImGx_psJpuIZ9-81">
