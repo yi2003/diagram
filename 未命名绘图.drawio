@@ -1,14 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T02:22:47.275Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tFFzGrLMhXFFGrJFaN5H" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T03:04:25.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="07idz6l-5vUgZHihRfvg" version="22.1.11" type="github">
   <diagram name="第 1 页" id="6-Rnt8kSzRVLFlXJ6Ax5">
-    <mxGraphModel dx="1294" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="100000" math="0" shadow="0">
+    <mxGraphModel dx="1294" dy="100577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="100000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JDs-eVqW2KSuo9xiijql-1" value="ltk" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="90" width="200" height="200" as="geometry" />
+        <mxCell id="JDs-eVqW2KSuo9xiijql-1" value="BOC" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="90" width="200" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="JDs-eVqW2KSuo9xiijql-4" value="ltk" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="90" width="200" height="200" as="geometry" />
+        <mxCell id="JDs-eVqW2KSuo9xiijql-7" value="直通车数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JDs-eVqW2KSuo9xiijql-1">
+          <mxGeometry x="20" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-4" value="LTK" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="90" width="170" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-9" value="ltk app" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JDs-eVqW2KSuo9xiijql-4">
+          <mxGeometry x="40" y="45" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-5" value="thunder (bank app)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="90" width="265" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="JDs-eVqW2KSuo9xiijql-5" source="JDs-eVqW2KSuo9xiijql-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-10" value="bank app" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JDs-eVqW2KSuo9xiijql-5">
+          <mxGeometry x="60" y="45" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-14" value="db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="JDs-eVqW2KSuo9xiijql-5">
+          <mxGeometry x="170" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-19" value="&lt;h1&gt;保存biz_tpayment paymentstatus=7,&lt;/h1&gt;&lt;div&gt;transaction no 保存到临时的一个用来对账的 payseqno，channel改掉（托收/支付）。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="JDs-eVqW2KSuo9xiijql-5">
+          <mxGeometry x="10" y="110" width="220" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-6" value="thunder (auto recon)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="885" y="90" width="430" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-15" value="auto recon" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="JDs-eVqW2KSuo9xiijql-6">
+          <mxGeometry x="80" y="60" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-18" value="&lt;h1&gt;需要把biz_tbocs的receiptjrnlno 保存到Biz_TPaymentExt 的payseqno, 更新paymentstatus=1&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="JDs-eVqW2KSuo9xiijql-6">
+          <mxGeometry x="140" y="40" width="270" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JDs-eVqW2KSuo9xiijql-7" target="JDs-eVqW2KSuo9xiijql-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="JDs-eVqW2KSuo9xiijql-9" target="JDs-eVqW2KSuo9xiijql-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-12" value="message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JDs-eVqW2KSuo9xiijql-11">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="JDs-eVqW2KSuo9xiijql-15" target="JDs-eVqW2KSuo9xiijql-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JDs-eVqW2KSuo9xiijql-20" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;Collection &lt;span style=&quot;color:#6897bb;&quot;&gt;3 &lt;/span&gt;&lt;span style=&quot;font-family:&#39;Courier New&#39;,monospace;&quot;&gt;托收&lt;br&gt;&lt;/span&gt;payment &lt;span style=&quot;color:#6897bb;&quot;&gt;2&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#6897bb;&quot;&gt;直通车数据：&lt;/span&gt;TransactionType&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
