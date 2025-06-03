@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1901" dy="1081" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2755" dy="1401" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,6 +160,141 @@
         </mxCell>
         <mxCell id="IhY6Ss-L7BSIMRkra6O5-161" value="New Client User may access &#xa; simplified view of their reports" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
           <mxGeometry x="150" y="1941" width="1518" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-308" value="New Client User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="161" y="2357" width="150" height="1327" as="geometry" />
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-309" value="Existing Client User /&#xa;SpeedX Internal User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="361" y="2357" width="177" height="1327" as="geometry" />
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-310" value="UI Portal" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="588" y="2357" width="150" height="1327" as="geometry" />
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-311" value="PLD Analyzer System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="955" y="2357" width="175" height="1327" as="geometry" />
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-312" value="BI System / Data Warehouse" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="2357" width="228" height="1327" as="geometry" />
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-313" value="Report Outputs /&#xa;Dashboard" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1681" y="2357" width="150" height="1327" as="geometry" />
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-314" value="Creates &amp; Uploads PLD Excel" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-308" target="IhY6Ss-L7BSIMRkra6O5-310">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="458" y="2470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-315" value="Validates File / Reports Error" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-310" target="IhY6Ss-L7BSIMRkra6O5-310">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="714" y="2528" />
+              <mxPoint x="714" y="2558" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-316" value="Submits Validated Excel (New Client Data)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-310" target="IhY6Ss-L7BSIMRkra6O5-311">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="861" y="2616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-317" value="Requests/Pulls PLD for Existing Clients (Scheduled)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-311" target="IhY6Ss-L7BSIMRkra6O5-312">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1275" y="2723" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-318" value="Provides PLD Data for Existing Clients" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-312" target="IhY6Ss-L7BSIMRkra6O5-311">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1278" y="2781" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-319" value="1. Data Acquisition &amp; Source ID (Identifies Excel vs. BI source)" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-311" target="IhY6Ss-L7BSIMRkra6O5-311">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1093" y="2839" />
+              <mxPoint x="1093" y="2869" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-320" value="2. Data Cleaning &amp; Standardization" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-311" target="IhY6Ss-L7BSIMRkra6O5-311">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1093" y="2927" />
+              <mxPoint x="1093" y="2957" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-321" value="3. Data Mapping (Incl. Product Code, uses client profiles)" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-311" target="IhY6Ss-L7BSIMRkra6O5-311">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1093" y="3015" />
+              <mxPoint x="1093" y="3045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-322" value="4. Data Enrichment (SPX Zone, Hub)" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-311" target="IhY6Ss-L7BSIMRkra6O5-311">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1093" y="3103" />
+              <mxPoint x="1093" y="3133" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-323" value="5. Analytical Report Generation" style="curved=1;endArrow=block;rounded=0;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-311" target="IhY6Ss-L7BSIMRkra6O5-311">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1093" y="3191" />
+              <mxPoint x="1093" y="3221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-324" value="Generates Report 1 (Daily Volume)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-311" target="IhY6Ss-L7BSIMRkra6O5-313">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1408" y="3279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-325" value="Generates Report 2 (Avg/Max Metrics)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-311" target="IhY6Ss-L7BSIMRkra6O5-313">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1408" y="3337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-326" value="Generates Report 3 (% SPX Coverage)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-311" target="IhY6Ss-L7BSIMRkra6O5-313">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1408" y="3395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-327" value="SpeedX Users Access Full Reports (Incl. auto-updated existing client reports)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-313" target="IhY6Ss-L7BSIMRkra6O5-309">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1114" y="3453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-328" value="(Simplified Report View for New Client)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="IhY6Ss-L7BSIMRkra6O5-313" target="IhY6Ss-L7BSIMRkra6O5-308">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1008" y="3579" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-329" value="Scheduled Process" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="1017" y="2636" width="498" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="IhY6Ss-L7BSIMRkra6O5-330" value="New Client User may access &#xa; simplified view of their reports (after their Excel upload)" style="fillColor=#ffff88;strokeColor=#9E916F;" vertex="1" parent="1">
+          <mxGeometry x="211" y="3473" width="1570" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
